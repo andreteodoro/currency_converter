@@ -210,7 +210,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0.0.beta)
+  bootstrap (~> 4.0.0.alpha3)
   byebug
   capybara
   coffee-rails (~> 4.2)
@@ -232,4 +232,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.13.7
+   1.15.3
