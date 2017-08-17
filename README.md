@@ -29,13 +29,11 @@ rails s
 ### Testing
 
 #### Using Docker
-In the project folder
 ```
 docker-compose run --rm website rspec
 ```
 
 #### Localhost
-In the project folder
 ```
 rspec
 ```
