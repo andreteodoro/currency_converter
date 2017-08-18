@@ -1,6 +1,7 @@
 # Currency Converter
 
-The Currency Converter is the easiest way to simulate how much you will spend in your next trip. The currency conversion between two currencies is made using the [Fixer API](http://fixer.io/).
+The Currency Converter is the easiest way to simulate how much you will spend in your next trip. 
+The currency conversion between two currencies is made using the [Fixer API](http://fixer.io/).
 
 ## Demo
 [Currency Converter](https://easy-currencyconverter.herokuapp.com/)
