@@ -1,24 +1,40 @@
-# README
+# Currency Converter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Currency Converter is the easiest way to simulate how much you will spend in your next trip. 
+The currency conversion between two currencies is made using the [Fixer API](http://fixer.io/).
 
-Things you may want to cover:
+## Demo
+[Currency Converter](https://easy-currencyconverter.herokuapp.com/)
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+This instructions will give you a copy of the project on your local machine for development and testing.
 
-* Configuration
+### Installing
 
-* Database creation
+#### Using Docker
+```
+git clone https://github.com/luiswitz/currency_converter.git
+cd currency_converter
+docker-compose up --build
+```
 
-* Database initialization
+#### Localhost
+```
+git clone https://github.com/andreteodoro/currency_converter.git
+cd currency_converter
+bundle install
+rails s
+```
 
-* How to run the test suite
+### Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Using Docker
+```
+docker-compose run --rm website rspec
+```
 
-* Deployment instructions
-
-* ...
+#### Localhost
+```
+rspec
+```
