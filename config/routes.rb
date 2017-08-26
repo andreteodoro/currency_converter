@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  scope "(:locale)", locale: /en|pt-BR/ do
+    root 'home#index'
+  end
+
   post 'convert', to: 'home#convert'
 end
