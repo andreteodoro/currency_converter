@@ -6,7 +6,7 @@ RSpec.describe "Convert Currency Process", :type => :feature do
     within("#converter_form") do
       select('EUR', from: 'currency_from')
       select('USD', from: 'currency_to')
-      fill_in 'quantity', with: '10'
+      fill_in 'amount', with: '10'
     end
     click_button 'CONVERTER'
 

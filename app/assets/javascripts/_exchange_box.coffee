@@ -7,7 +7,7 @@ $(document).ready ->
         data: {
           currency_from: $("#currency_from").val(),
           currency_to: $("#currency_to").val(),
-          quantity: $("#quantity").val()
+          amount: $("#amount").val()
           }
         error: (jqXHR, textStatus, errorThrown) ->
           alert textStatus

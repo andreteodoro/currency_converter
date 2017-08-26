@@ -19,12 +19,12 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  title: "Easily convert your money"
-  subtitle: "To every currency in the World!"
-  exchange_box_title: "Simulate the conversion"
-  currency_from: "Local Currency"
-  currency_to: "Desired Currency"
-  amount: "Amount ($10)"
-  result: "Result"
-  convert: "CONVERT"
+pt-BR:
+  title: "Converta facilmente suas Moedas"
+  subtitle: "Para qualquer moeda no Mundo!"
+  exchange_box_title: "Simule sua conversão"
+  currency_from: "Moeda Local"
+  currency_to: "Moeda Pretendida"
+  amount: "Quantidade (R$10)"
+  result: "Resultado"
+  convert: "CONVERTER"
